@@ -1,0 +1,844 @@
+*{
+    font-family: tahoma;
+    /* color: #000; */
+}
+
+/* span.glyphicon{
+    color: #FFF;
+} */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.bot-margin20{
+	margin-top: 20px;
+}
+
+#container-main{
+	width: 100%;
+}
+
+.container div.navbar-header a.navbar-brand{
+	color: royalblue;
+	font-weight: bold;
+}
+
+.requiredf{
+	color: red;
+}
+
+select.inp-b,
+input.inp-b{
+	font-weight: bold;
+}
+span.custlist,
+span.xcus, 
+span.smanlist,
+span.banklist{
+ 	display: none;
+	position: absolute;
+	z-index: 9999;
+	background-color: #d9edf7;
+	min-width: 300px;
+	-webkit-box-shadow: 1px 1px 1px 1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    1px 1px 1px 1px #ccc;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         1px 1px 1px 1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+span.custlist ul,
+span.xcus ul, 
+span.smanlist ul,
+span.banklist ul{
+	list-style: none;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+span.custlist ul li,
+span.xcus ul li, 
+span.smanlist ul li,
+span.banklist ul li{
+	padding: 4px 10px;
+	font-weight: bold;
+}
+
+span.custlist ul li:hover,
+span.xcus ul li:hover, 
+span.smanlist ul li:hover,
+span.banklist ul li:hover{
+	background-color: #cedce2;
+	cursor: pointer;
+}
+
+img.loadver{
+  height: 28px;
+}
+
+.addnewcheck .modal-dialog {
+    width: 980px;
+}
+
+/* .updatebounced .modal-dialog {
+    width: 610px;
+} */
+
+.updatebounced .modal-dialog {
+    width: 910px;
+}
+
+.tagasdialog .modal-dialog {
+    width: 480px;
+}
+
+input.inp-flarge{
+	font-size: large;
+}
+
+input.inp-xflarge{
+	font-size: x-large;
+}
+
+section.content-header{
+	padding-bottom: 18px;
+}
+
+.addnewuser .modal-dialog{
+	width: 660px;
+}
+
+table#userlist thead tr{
+	font-size: 12px;
+}
+
+table#userlist tbody tr{
+	font-size: 13px;
+}
+
+input.form-control.up, select.form-control.up{
+    text-transform:uppercase;
+    color:#000;
+}
+
+div.err{
+	padding: 4px;
+}
+
+input#checkamt{
+    color: darkblue;
+}
+
+input#redepcheckamount{
+    color: darkblue;
+}
+
+textarea#checkamtwords{
+    color: brown;
+}
+
+input.form-control, select.form-control{
+    color: #000;
+}
+
+h5.h5totamt{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-weight: bold;
+}
+
+span._totAmt{
+    color:red;
+}
+
+#check-info td, 
+#checkstatus td, 
+#checklist td, 
+#_banks td, 
+#_customers td,
+#userlist td,
+#_salesman td{
+    font-size: 12px;
+    color: #000;
+    line-height: 1.4;
+    font-weight: 900;
+  }
+  
+#check-info th, 
+#checkstatus th, 
+#checklist th, 
+#_banks th, 
+#_customers th,
+#userlist th,
+#_salesman th{
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #36304a;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #000;
+}
+
+#loaderdiv{
+
+}
+
+h4.loadh4{
+    color: #000;
+    padding: 20px;
+    background: rgba(123, 123, 123, 0.9);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img.tableload{
+    position: absolute; 
+    left: 42%; 
+    top: 42%; 
+    height:80px; 
+    width:80px; 
+    z-index: 100000;
+}
+
+#checklist td.aright{
+    text-align: right;
+}
+
+._loadchecks .pagination{
+    margin-top: 0px;
+}
+
+span.isearch,span.iexport{
+    font-weight: bold;
+    font-size: 19px;
+    color: #008cff;
+    cursor: pointer;
+}
+
+span.isearch:hover{
+    color: rebeccapurple;
+}
+
+#_checkssearch{
+    display: none;
+    margin: 10px;
+    background-color: #d2d6de;
+    padding: 10px;
+    margin-bottom:0px; 
+}
+
+.key-metrics{
+    min-height: 80px;
+    border-top: 4px solid black;
+    min-width: 100px;
+    padding: 0 10px 0 10px;
+    color: white;
+    line-height: 1em;
+    text-align: center;
+    background: #3f3f45;
+    margin: 8px 8px 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;    
+}
+
+.white-border{
+    border-top: 4px solid #317292
+}
+
+.key-metrics .small{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.info-box {
+    display: block;
+    /*min-height: 90px;*/
+    background: #c9e7f8;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+    border-top: 2px solid #34495e;
+}
+
+.info-box-content {
+    padding: 5px 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.info-box-text {
+    text-transform: uppercase;
+}
+
+.progress-description, .info-box-text {
+    display: block;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.info-box-number{
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color:#008cff;
+}
+
+.file-upload {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #337ab7;
+    cursor: pointer;
+}
+
+label.file-upload__label {
+    color: #fff;
+    padding: 6px;
+    cursor: pointer;
+    padding-bottom:0px;
+}
+
+.file-upload__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.form-group.margin-bot0{
+    margin-bottom: 0px;
+}
+
+.mtop6{
+    margin-top: 6px;
+}
+
+table.paleBlueRows {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+    border: 1px solid #FFFFFF;
+    padding: 2px 2px;
+}
+table.paleBlueRows tbody td {
+    font-size: 12px;
+    font:verdana;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+table.paleBlueRows tbody tr:hover{
+    background-color: #d6edcc;
+}
+
+table.paleBlueRows thead {
+    background: #0B6FA4;
+    border-bottom: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+    border-left: none;
+}
+
+table.paleBlueRows tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+}
+table.paleBlueRows tfoot td {
+    font-size: 14px;
+}
+
+.action-duecheck a:hover,
+.action-duecheck a:visited,
+.action-duecheck a:focus{
+    text-decoration: none;      
+}
+
+table.paleBlueRows tbody{
+    /*display:block;*/
+    height:370px;
+    overflow:auto;
+}
+
+table.paleBlueRows thead, 
+table.paleBlueRows tbody tr{
+    display:table;
+    width:100%;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+}
+
+table.paleBlueRows tbody tr td{
+    vertical-align: middle;
+}
+
+.panel-body.deposit{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+div.depgroup{
+    margin-bottom: 6px;
+}
+
+#depsearch{
+    border:1px solid #0B6FA4;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+button#depbtn{
+    background-color: #0B6FA4;
+    border-radius: 0px;
+}
+
+button#depbtn span{
+    color:#FFF;
+}
+
+.depsearchlbl{
+    text-align: right;
+    margin-top: 4px;
+}
+
+p.totdeposit{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-align: right;
+    padding-right:10px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+span.totspan, span.totspanbounce{
+    color: darkred;
+}
+
+div.depgroup{
+    margin-bottom: 6px;
+}
+
+label.lblinp{
+    text-align: right;
+    margin-top: 4px;
+}
+
+input.blu{
+    border: 1px solid #0B6FA4;
+}
+
+a:visited, a:hover, a:active, a:focus{
+    text-decoration: none;
+}
+
+.checkbox label:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+.checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 15%;
+}
+
+.checkbox label input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"]+.cr>.cr-icon {
+    opacity: 0;
+}
+
+.checkbox label input[type="checkbox"]:checked+.cr>.cr-icon {
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled+.cr {
+    opacity: .5;
+}
+
+.checkbox{
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+span.lblcheck{
+    font-weight: bold;
+}
+
+/* The container */
+.containerx{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerx input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containerx:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerx input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.containerx input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerx .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.pretty.p-default{
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.action-check a{
+    font-size: 14px;
+}
+
+.p-head{
+    margin-top: 5px;
+}
+
+.pretty .state label.bold{
+    font-weight: bold;
+}
+
+.pretty 
+input:checked~.state.p-info 
+label:after, 
+.pretty.p-toggle 
+.state.p-info label:after 
+{
+    background-color: #0B6FA4 !important;
+}
+
+.loading-con{
+    font-size: 18px;
+    color: #000;
+    background-color: #FFF;
+    padding: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+span.sp-cl{
+    color: #337ab7;
+}
+
+span.sp-bo{
+    color: darkred;
+}
+
+.gly-icons{
+    color: #337ab7;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.gly-icons.mright8, .radio-inline.mright8{
+    margin-right: 8px;
+}
+
+.gly-iconredeposit{
+    color: #ba9a37;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.gly-iconreplacement{
+    color: rgb(1, 1, 212);
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.gly-iconcash{
+    color: #3c763d;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.divhide{
+    display: none;
+}
+
+.mb-0{
+    margin-bottom: 0px;
+}
+
+#_taggcnt{
+    margin-top: 8px;
+}
+
+.taggedcnt{
+    color: #2f97ed;
+}
+
+.btitle{
+    font-size: 12px;
+    color: cadetblue;
+}
+
+input.checkboxItemsDep{
+    margin-right: 8px;
+}
+
+/** Tabs Style **/
+
+/* Tabs panel */
+.tabbable-panel {
+    border:1px solid #eee;
+    padding: 10px;
+  }
+  
+  /* Default mode */
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #fbcdcf;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #f3565d;
+    position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+  }
+  .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+  
+  /* Below tabs mode */
+  
+  .tabbable-line.tabs-below > .nav-tabs > li {
+    border-top: 4px solid transparent;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li > a {
+    margin-top: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li:hover {
+    border-bottom: 0;
+    border-top: 4px solid #fbcdcf;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li.active {
+    margin-bottom: -2px;
+    border-bottom: 0;
+    border-top: 4px solid #f3565d;
+  }
+  .tabbable-line.tabs-below > .tab-content {
+    margin-top: -10px;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+
+.navbar-default .navbar-nav>li>a {
+    color:#000;
+    font-weight: bold;
+
+}
+
+.dropdown-menu>li>a{
+    color:#000;
+    font-weight: bold;
+}
+
+.margin-8{
+    margin-right: 10px;
+}
+
+.glyphicon-list:hover{
+    color: #001230;
+}
+
+.glyphicon-edit:hover{
+    color: #676768;
+}
+
+.glyphicon-remove:hover{
+    color: #ed0e0e;
+}
+
+table#checklist tbody tr:hover{
+    background: #d6edcc;
+}
+
+.printable {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+.printheader{
+    width: 100%;
+    text-align: center;
+}
+
+table.printtable{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+table.printtable, table.printtable th, table.printtable td{
+    border: 1px solid black;
+}
+
+table.printtable th{
+    padding: 6px;
+}
+
+table.printtable td{
+    padding: 4px;
+}
+
+.printfooter{
+    margin-top: 20px;
+}
+
+.tablefooter{
+    width: 100%;
+}
+
+.tablefooter tbody tr td h4.h4print{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.tablefooter tbody tr td h4.h4print-mleft20{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 24px; 
+}
